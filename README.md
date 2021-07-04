@@ -48,3 +48,8 @@ _This will create `build/` directory which will be used to upload `Firebase Host
 ```
 firebase deploy --only hosting
 ```
+
+----
+
+Demo:
+https://fir-functions-explore-ca33b.web.app/
