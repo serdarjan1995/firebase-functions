@@ -24,4 +24,4 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FIR_FUNCTIONS_EXPLORE_CA33B }}'
-          projectId: '${{ REACT_APP_PROJECT_ID }}'
+          projectId: '${{ secrets.REACT_APP_PROJECT_ID }}'
