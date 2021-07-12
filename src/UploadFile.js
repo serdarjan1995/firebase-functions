@@ -40,6 +40,8 @@ class UploadFile extends React.Component{
             "file",
             this.state.selectedFile,
         );
+        alert('send')
+        return;
         axios.post(this.getFunctionUrl('files'), formData).then((page) => {
             alert(JSON.stringify(page.data))
         }).catch((err) => {
